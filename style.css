@@ -19,8 +19,8 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color: #B1AFFF;
-    color: #fff;
+    background-color: #FDFDBD;
+    color: #B8E8FC;
 }
 
 .hero {
@@ -72,13 +72,13 @@ body {
     border-radius: 25px;
     font-size: 0.9rem;
     font-weight: 700;
-    color: #B1AFFF;
+    color: #FDFDBD;
     text-decoration: none;
     box-shadow: 0px 0px 4px #000;
 }
 
 .button:hover {
-    background-color: #FDFDBD;
+    background-color: #B1AFFF;
     color: #c5b358;
     transform: scale(1.5);
 }
@@ -92,7 +92,7 @@ body {
 
 .projectCard {
     background-color: #fff;
-    color: #B1AFFF;
+    color: #FDFDBD;
     margin: 4rem 3rem;
     padding: .5rem 2rem;
     text-align: center;
