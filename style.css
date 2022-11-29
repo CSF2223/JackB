@@ -1,10 +1,9 @@
 /*
 Color Palette
-background color: #B1AFFF
-primary: #B8E8FC
-secondary: #FDFDBD
-tertiary: #C8FFD4
-vegasGold: #c5b358
+Background Color: #483838
+Font Color: #42855B
+Emphasized Text: #90B77D
+Highlight Color: #D2D79F
 white: #fff
 black: #000  
 */
@@ -19,8 +18,8 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color: #FDFDBD;
-    color: #B8E8FC;
+    background-color: #483838;
+    color: #42855B;
 }
 
 .hero {
@@ -48,7 +47,7 @@ body {
 }
 
 .heroName {
-    color: #c5b358;
+    color: #90B77D;
     font-size: 2.5rem;
     text-transform: uppercase;
 }
@@ -68,18 +67,18 @@ body {
 .button {
     background-color: #fff;
     padding: 1rem;
-    border: 1px solid #B8E8FC;
+    border: 1px solid #42855B;
     border-radius: 25px;
     font-size: 0.9rem;
     font-weight: 700;
-    color: #FDFDBD;
+    color: #483838;
     text-decoration: none;
     box-shadow: 0px 0px 4px #000;
 }
 
 .button:hover {
-    background-color: #B1AFFF;
-    color: #c5b358;
+    background-color: #D2D79F;
+    color: #90B77D;
     transform: scale(1.5);
 }
 
@@ -92,11 +91,11 @@ body {
 
 .projectCard {
     background-color: #fff;
-    color: #FDFDBD;
+    color: #483838;
     margin: 4rem 3rem;
     padding: .5rem 2rem;
     text-align: center;
-    border: 1px solid #B8E8FC;
+    border: 1px solid #42855B;
     border-radius: 1rem;
     box-shadow: 10px 10px 5px #000;
 }
@@ -142,16 +141,16 @@ body {
 
 footer {
     text-align: center;
-    color: #c5b358;
+    color: #90B77D;
     margin: 10rem 0;
-    border-top: 1px solid #B8E8FC;
+    border-top: 1px solid #42855B;
 }
 
 .compright{
     margin: 1rem;
     padding: 1rem;
     font-size: 1rem;
-    color: #c5b358;
+    color: #90B77D;
     display: block;
 }
 

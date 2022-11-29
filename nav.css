@@ -1,10 +1,9 @@
 /*
 Color Palette
-background color: #B1AFFF
-primary: #B8E8FC
-secondary: #FDFDBD
-tertiary: #C8FFD4
-vegasGold: #c5b358
+Background Color: #483838
+Font Color: #42855B
+Emphasized Text: #90B77D
+Highlight Color: #D2D79F
 white: #fff
 black: #000  
 */
@@ -22,7 +21,7 @@ black: #000
 .logo {
     font-size: 2.2rem;
     margin: 0.75rem 2.5rem;
-    color: #c5b358;
+    color: #90B77D;
     font-family: 'Dancing Script', cursive;
 }
 
@@ -46,7 +45,7 @@ black: #000
 }
 
 .navbar-links li:hover {
-    background-color: #B1AFFF;
+    background-color: #D2D79F;
 }
 
 .toggle-button {
@@ -83,7 +82,7 @@ black: #000
 
 .bottomNav li a {
     text-decoration: none;
-    color: #c5b358;
+    color: #90B77D;
     display: block;
 }
 
