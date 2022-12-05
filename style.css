@@ -164,12 +164,11 @@ footer {
 }
 
 .aboutMe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    height: 80vh; 
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 @media (min-width: 800px) {
@@ -201,5 +200,9 @@ footer {
     
     .projectCard {
         max-width: 20%;
+    }
+    
+    .aboutMe {
+        font-size: 1.5rem;
     }
 }
