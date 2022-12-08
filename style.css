@@ -16,7 +16,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     background-color: #483838;
     color: #42855B;
@@ -170,11 +170,6 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
 }
-
-.aboutMe img {
-    display: flex;
-}
-
 
 .dropdown {
   position: relative;

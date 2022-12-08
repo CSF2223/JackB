@@ -8,8 +8,8 @@ white: #fff
 black: #000  
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
 .navbar {
     display: flex;
@@ -22,7 +22,7 @@ black: #000
     font-size: 2.2rem;
     margin: 0.75rem 2.5rem;
     color: #90B77D;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'La Belle Aurore', cursive;
 }
 
 .navbar-links ul {
