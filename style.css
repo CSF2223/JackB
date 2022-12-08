@@ -164,11 +164,35 @@ footer {
 }
 
 .aboutMe {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding-bottom: 2rem;
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.aboutMe img {
+    display: flex;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #483838;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 @media (min-width: 800px) {
@@ -203,6 +227,6 @@ footer {
     }
     
     .aboutMe {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 }
